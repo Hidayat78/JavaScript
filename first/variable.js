@@ -50,5 +50,14 @@ because of issue in block scope and functional scope
 
 let someNumber = 45;
 let stringNumber = String(someNumber);
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// console.log(stringNumber)
+// console.log(typeof stringNumber)
+
+// let str1 = "heloow"
+// let str2 = " Hidayat"
+// let str3 = str1 + str2;
+// console.log(str3);
+
+// console.log(null > 0);
+// console.log(null < 0);
+// console.log(null >= 0);
