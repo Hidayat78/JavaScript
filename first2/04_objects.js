@@ -31,8 +31,34 @@ const obj4={
 // const obj3 = Object.assign({},obj1,obj2,obj4)
 const obj3 = {...obj1, ...obj2, ...obj4}
 // console.log(obj3);
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const course = {
+    coursename: "Js in hindi",
+    price: "1999",
+    courseInstructor: "hidayat"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "hidayat",
+//     "coursename": "Js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
